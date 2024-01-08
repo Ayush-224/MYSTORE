@@ -53,13 +53,13 @@ z-index: 1;
     align-items: baseline;
     position: relative;
 }
-.home-button div {
+.home-button {
     color: white;
     text-decoration: underline;
     font-size: 24px;
     margin-left: 50%;
 }
-.tools-button div {
+.tools-button {
     color: white;
     text-decoration: inherit;
     font-size: 24px;
