@@ -173,6 +173,10 @@ margin-top: 8.25%;
   height: 350px;
   border-radius: 2%;z-index: 0;
 }
+.back-box-img:hover{
+transform:scale(1.2);
+  transition:0.5s ease;
+}
 .back-box1{
   background-color: #242424;
   width: 630px;
