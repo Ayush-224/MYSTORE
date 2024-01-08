@@ -188,9 +188,11 @@ margin-top: 8.25%;
   width: 570px;
   height: 350px;
   border-radius: 2%;z-index: 0;
+    transition:0.5s ease;
+
 }
 .back-box-img:hover{
-transform:scale(1.2);
+transform:scale(1.05);
   transition:0.5s ease;
 }
 .back-box1{
@@ -208,7 +210,12 @@ transform:scale(1.2);
     width: 570px;
     height: 350px;
     border-radius: 2%;
+    transition:0.5s ease;
   } 
+.back-box1-img:hover{
+transform:scale(1.05);
+  transition:0.5s ease;
+}
   .ldetails{
    
     align-items: end;
