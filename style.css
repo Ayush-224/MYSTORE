@@ -45,9 +45,25 @@ z-index: 1;
   .sidenav{padding-top: 15px;}
   .sidenav a{font-size: 18px;}
 }
-.topnav{
-  z-index: 5;
-  color: rgb(255, 255, 255);
+.topnav {
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    position: relative;
+}
+.home-button div {
+    color: white;
+    text-decoration: underline;
+    font-size: 24px;
+    margin-left: 50%;
+}
+.tools-button div {
+    color: white;
+    text-decoration: inherit;
+    font-size: 24px;
+    margin-left: 100%;
 }
 
 .logo{
@@ -58,10 +74,10 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
  .login{
   cursor: pointer;
-  font-size: 30px;
+  font-size: 31px;
   position: relative;
-  left: 72%;
-  bottom: 15px;
+  left: 63rem;
+  bottom: 8px;
 }
 button {
   background-color: #161616ee;
@@ -73,7 +89,7 @@ button {
   border-color: rgb(255, 255, 255);
   border-radius: 3px;
   cursor: pointer;
-  width: 5.7%;
+/*   width: 5.7%; */
   opacity: 0.9;
   font-size: 55%;
   letter-spacing: 1.25px;
