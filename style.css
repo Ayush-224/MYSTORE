@@ -72,11 +72,13 @@ cursor: pointer;
 font-size: 48px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.login-link{
+ left: 63rem; 
+}
  .login{
   cursor: pointer;
   font-size: 31px;
   position: relative;
-  left: 63rem;
   bottom: 8px;
 }
 button {
